@@ -8,8 +8,8 @@ Instructions:
 2. Choose what you want to do (e to Encrypt, d to Decrypt).
 3. Insert the string you want to Encrypt or Decrypt.
 4. Insert the key you want to encrypt/decrypt with.
-5. The result string is after the text "El texto encriptado es: " (Note the space at the end).
+5. The result string is located after the text "El texto encriptado es: " (Note the space at the end).
 
 Notes:
-It only accepts ascii characters between the ' ' (Space) and '}'. Though this is could be easily changed at the Initializer class.
+It only accepts ascii characters between the ' ' (Space) and '}'. Though this could be easily changed at the initializer of the class.
 It does not support unicode strings.
