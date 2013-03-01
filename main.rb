@@ -4,7 +4,7 @@
 #Description: Command line application that encrypts and decrypts strings with a key. It is based on two methods described
 # in the book: Cryptography and Network Security Principles and Practices, 4th Ed by William Stallings.
 
-require Dir.pwd + "/Cypher.rb"
+require File.dirname(__FILE__) + "/Cypher.rb"
 
 #Menu inicia
 begin

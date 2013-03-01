@@ -8,7 +8,7 @@ class Cypher
     #Crea un array con los caracteres ascii desde el espacio (' ') hasta
     #la llave cerrada '}'. Este array puede aumentar o disminuir tanto como se
     #necesite. De esto depende que caracteres será posible encriptar
-    @alphabet = (' '..'}').to_a
+    @alphabet = ('a'..'z').to_a + ('0'..'9').to_a + (' '..'/').to_a
     @top = @alphabet.size
   end
   #metodos publicos.
